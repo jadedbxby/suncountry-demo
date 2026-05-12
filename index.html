@@ -13,7 +13,10 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
         appId: '9a8ed63fadae4e95b2eaf4722a50fd92',
         apiUrl: 'https://suncountrydev.brightpattern.com/clientweb/api/v1',
         tenantUrl: 'suncountrydev.brightpattern.com',
-        chatPath: 'https://suncountrydev.brightpattern.com/clientweb/chat-client-v4/'
+        chatPath: 'https://suncountrydev.brightpattern.com/clientweb-preauth/chat-client-v4/',
+        parameters: {
+            cookies: '{{COOKIE_HEADER_VALUE_PARAMETER}}'
+        },
  
         /*        
          // Default customer data, it can be collected on current site's context
